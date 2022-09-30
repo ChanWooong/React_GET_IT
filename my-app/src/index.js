@@ -6,8 +6,10 @@ import reportWebVitals from './reportWebVitals';
 
 import Clock from './chapter04/Clock.jsx';
 import CommentList from './chapter05/CommentList.jsx'
-
+import NotificationList from './chapter06/NotificationList';
+import Accommodate from './chapter07/Accommodate';
 const root = ReactDOM.createRoot(document.getElementById('root')); // 랜더 하는 과정
+//4챕터
 // setInterval(() => {
 // root.render(
 //   <React.StrictMode>
@@ -15,9 +17,23 @@ const root = ReactDOM.createRoot(document.getElementById('root')); // 랜더 하
 //   </React.StrictMode>
 // );
 // }, 1000)
+//5챕터
+// root.render(
+//   <React.StrictMode>
+//     <CommentList />
+//   </React.StrictMode>
+// );
+//6챕터
+// root.render(
+//   <React.StrictMode>
+//     <NotificationList/>
+//   </React.StrictMode>
+// );
+
+//7챕터
 root.render(
   <React.StrictMode>
-    <CommentList />
+    <Accommodate />
   </React.StrictMode>
 );
 // If you want to start measuring performance in your app, pass a function
